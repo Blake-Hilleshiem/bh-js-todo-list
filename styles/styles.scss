@@ -1,0 +1,179 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  .header-container {
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  .content-container {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    .center-content-container {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-items: center;
+
+      .add-new {
+        button {
+          height: 50px;
+          width: 500px;
+          border: transparent;
+          border-radius: 5px;
+          background-color: rgb(189, 189, 189);
+          color: white;
+          font-size: 2rem;
+        }
+
+        button:hover {
+          background-color: rgb(215, 215, 215);
+          cursor: pointer;
+        }
+      }
+
+      .pending-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .list-item {
+          height: 50px;
+          width: 500px;
+          border: 1px solid gray;
+          border-radius: 5px;
+          background-color: white;
+          color: black;
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+
+          .delete-item {
+            height: 35px;
+            width: 35px;
+            border-radius: 5px;
+            border: 1px solid red;
+            background-color: white;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+          }
+
+          .delete-item:hover {
+            background-color: rgb(222, 222, 222);
+          }
+
+          .mark-complete {
+            height: 35px;
+            width: 35px;
+            border-radius: 5px;
+            border: 1px solid red;
+            background-color: white;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+          }
+
+          .mark-complete:hover {
+            background-color: rgb(222, 222, 222);
+          }
+        }
+      }
+
+      .show-completed {
+        padding-top: 50px;
+        button {
+          height: 50px;
+          width: 500px;
+          border: transparent;
+          border-radius: 5px;
+          background-color: rgb(189, 189, 189);
+          color: white;
+          font-size: 1rem;
+        }
+
+        button:hover {
+          background-color: rgb(215, 215, 215);
+          cursor: pointer;
+        }
+      }
+
+      .completed-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .list-item {
+          height: 50px;
+          width: 500px;
+          border: 1px solid gray;
+          border-radius: 5px;
+          background-color: rgb(163, 235, 163);
+          color: black;
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+
+          .delete-item {
+            height: 35px;
+            width: 35px;
+            border-radius: 5px;
+            border: 1px solid red;
+            background-color: white;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+          }
+
+          .delete-item:hover {
+            background-color: rgb(222, 222, 222);
+          }
+
+          .mark-complete {
+            height: 35px;
+            width: 35px;
+            border-radius: 5px;
+            border: 1px solid red;
+            background-color: white;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+          }
+
+          .mark-complete:hover {
+            background-color: rgb(222, 222, 222);
+          }
+        }
+      }
+    }
+  }
+}

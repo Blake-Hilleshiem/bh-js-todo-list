@@ -1,0 +1,237 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body .header-container {
+  height: 150px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+}
+
+body .content-container {
+  width: 100vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .content-container .center-content-container {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .content-container .center-content-container .add-new button {
+  height: 50px;
+  width: 500px;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #bdbdbd;
+  color: white;
+  font-size: 2rem;
+}
+
+body .content-container .center-content-container .add-new button:hover {
+  background-color: #d7d7d7;
+  cursor: pointer;
+}
+
+body .content-container .center-content-container .pending-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .content-container .center-content-container .pending-list .list-item {
+  height: 50px;
+  width: 500px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+body .content-container .center-content-container .pending-list .list-item .delete-item {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: white;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+body .content-container .center-content-container .pending-list .list-item .delete-item:hover {
+  background-color: #dedede;
+}
+
+body .content-container .center-content-container .pending-list .list-item .mark-complete {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: white;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+body .content-container .center-content-container .pending-list .list-item .mark-complete:hover {
+  background-color: #dedede;
+}
+
+body .content-container .center-content-container .show-completed {
+  padding-top: 50px;
+}
+
+body .content-container .center-content-container .show-completed button {
+  height: 50px;
+  width: 500px;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #bdbdbd;
+  color: white;
+  font-size: 1rem;
+}
+
+body .content-container .center-content-container .show-completed button:hover {
+  background-color: #d7d7d7;
+  cursor: pointer;
+}
+
+body .content-container .center-content-container .completed-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .content-container .center-content-container .completed-list .list-item {
+  height: 50px;
+  width: 500px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #a3eba3;
+  color: black;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+body .content-container .center-content-container .completed-list .list-item .delete-item {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: white;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+body .content-container .center-content-container .completed-list .list-item .delete-item:hover {
+  background-color: #dedede;
+}
+
+body .content-container .center-content-container .completed-list .list-item .mark-complete {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: 1px solid red;
+  background-color: white;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+body .content-container .center-content-container .completed-list .list-item .mark-complete:hover {
+  background-color: #dedede;
+}
+/*# sourceMappingURL=styles.css.map */

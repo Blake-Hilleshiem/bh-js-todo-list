@@ -1,0 +1,17 @@
+#3) To Do List [tricky]
+
+-build a todo list with html, css, (scss) and vanilla js (style nicely, best practices)
+-Page Header 'ToDo List'
+-input (add) toDos)
+-button(submit todo)
+-render your todos with a title and a delete button
+-completed todos section. This should include some conditional rendering(if there are no todos, render a message[ie 'no completed todos'])
+
+-adding to dos-> Delete Todos -> Complete Todos
+-Completing a todo item will remove it from the todo list, but will add it to the completed list.
+-clicking a completed todo sould remove it from copleted but add it back to the open todos.
+
+\*\* Keep UX in mind (user experience) IE. submitting a todo item will clear the input.
+
+Bonus: Persist the todo list in the borwser (cookies, localstorage)
+sessiondb,
